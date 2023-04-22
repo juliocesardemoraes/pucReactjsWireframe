@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 31px;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: 300;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+h6 {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+p,
+label {
+  font-size: 12.8px;
+  font-weight: 300;
+}
+
+.small {
+  font-size: 10px;
+  font-weight: 100;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex__column {
+  flex-direction: column;
+}
+
+.fg__1 {
+  gap: 1rem;
+}
+
+.fspace__between {
+  justify-content: space-between;
+}
+
+.p__2 {
+  padding: 2rem;
+}
+
+.p__4 {
+  padding: 4rem;
+}
+.psides__4 {
+  padding: 0 2rem;
+}
+
+body {
+  min-height: 100vh;
+  color: #fff !important;
+  background: #222 !important;
+}
+
+.align__end {
+  align-items: flex-end !important;
+}
+
+.justify__end {
+  justify-content: flex-end !important;
+}
+
+.justify__center {
+  justify-content: center !important;
+}
